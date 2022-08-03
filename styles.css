@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(35, 35, 35);
+}
+
+.container {
+    height: 2500px;
+    width: 3500px;
+}
+
+.square {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(46, 46, 175);
+    border: 5px solid rgb(255, 255, 255);
+}
+
+.squareData {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-100%);
+    color: white;
+    font-size: 2rem;
+}
